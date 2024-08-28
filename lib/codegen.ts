@@ -8,7 +8,7 @@ const config: CodegenConfig = {
       },
     },
   ],
-  documents: "./{pages,lib}/**/*.{ts,tsx}", // Include both pages and lib directories
+  documents: "./pages/**/*.{ts,tsx}",
   generates: {
     "./lib/gql/": {
       preset: "client",

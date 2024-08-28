@@ -1,0 +1,443 @@
+{
+  "data": {
+      "routeByPath": {
+          "path": "/repeat-prescriptions/collection",
+          "page": {
+              "id": "3920",
+              "type": "CmsPage",
+              "locale": "en_GB",
+              "pageContent": {
+                  "pageType": "BASIC",
+                  "published": true,
+                  "id": "3920",
+                  "title": "Collection",
+                  "fullWidthLayout": false,
+                  "secondaryBackground": true,
+                  "createdAt": "2022-04-01T13:35:25.000Z",
+                  "author": {
+                      "id": "98",
+                      "name": "jgrayson",
+                      "__typename": "CmsUser"
+                  },
+                  "metaTags": [
+                      {
+                          "key": "title",
+                          "value": "Prescription Collection at Your Pharmacy | Hey Pharmacist",
+                          "type": "Value",
+                          "__typename": "CmsPageMetaTag"
+                      },
+                      {
+                          "key": "description",
+                          "value": "Find out about Hey Pharmacist's NHS repeat prescription pick-up service and how you can use it to easily collect your medication at your local pharmacy.",
+                          "type": "Value",
+                          "__typename": "CmsPageMetaTag"
+                      },
+                      {
+                          "key": "canonical",
+                          "value": "https://heypharmacist.co.uk/repeat-prescriptions/collection",
+                          "type": "Link",
+                          "__typename": "CmsPageMetaTag"
+                      }
+                  ],
+                  "sections": [
+                      {
+                          "type": "onecol",
+                          "settings": [
+                              {
+                                  "key": "section_full_width",
+                                  "value": "1",
+                                  "__typename": "CmsSectionLayoutSettings"
+                              },
+                              {
+                                  "key": "section_colour",
+                                  "value": "0",
+                                  "__typename": "CmsSectionLayoutSettings"
+                              }
+                          ],
+                          "blocks": [
+                              {
+                                  "name": "content",
+                                  "options": {
+                                      "width": 100,
+                                      "__typename": "CmsLayoutBlockOptions"
+                                  },
+                                  "components": [
+                                      {
+                                          "options": {
+                                              "displayLabel": false,
+                                              "__typename": "CmsComponentOptions"
+                                          },
+                                          "label": "Collection from your local pharmacy",
+                                          "html": {
+                                              "raw": "<p>We know how important visiting your local pharmacy can be. Which is why we don't neglect the option of collecting your medication in store, so that you continue to have access to first hand health advice, as well as professional health services and a range of products available.</p><p><a class=\"button button--primary\" href=\"https://heypharmacist.co.uk/pharmacy/login\">Choose a pharmacy</a></p>",
+                                              "html": "<p>We know how important visiting your local pharmacy can be. Which is why we don't neglect the option of collecting your medication in store, so that you continue to have access to first hand health advice, as well as professional health services and a range of products available.</p><p><a class=\"button button--primary\" href=\"https://heypharmacist.co.uk/pharmacy/login\">Choose a pharmacy</a></p>",
+                                              "__typename": "CmsHtmlField"
+                                          },
+                                          "alignment": "center",
+                                          "__typename": "CmsPageIntroComponent"
+                                      },
+                                      {
+                                          "options": {
+                                              "displayLabel": false,
+                                              "__typename": "CmsComponentOptions"
+                                          },
+                                          "label": "Block 1",
+                                          "reverse": false,
+                                          "highlighted": true,
+                                          "promotedMedia": false,
+                                          "fullBleed": false,
+                                          "body": {
+                                              "html": "<h2>Stay connected with collection</h2><p>Although things going digital are great, we don't want to forget the importance of visiting your local pharmacy to collect your medication. This is what<span>&nbsp;makes Hey Pharmacist different to other online pharmacy services.</span></p><h2>Why choose pharmacy collection?</h2><p>Even before the pandemic, pharmacies have played a vital role in our communities. A place we can all confidently confide in to not only safely provide us with medication, but also a reliable source of health advice and reassurance. We want to continue pushing the importance of community pharmacy and ensure that pharmacies can positively move into the digital future to continue helping you with all your needs.</p>",
+                                              "raw": "<h2>Stay connected with collection</h2><p>Although things going digital are great, we don't want to forget the importance of visiting your local pharmacy to collect your medication. This is what<span>&nbsp;makes Hey Pharmacist different to other online pharmacy services.</span></p><h2>Why choose pharmacy collection?</h2><p>Even before the pandemic, pharmacies have played a vital role in our communities. A place we can all confidently confide in to not only safely provide us with medication, but also a reliable source of health advice and reassurance. We want to continue pushing the importance of community pharmacy and ensure that pharmacies can positively move into the digital future to continue helping you with all your needs.</p>",
+                                              "__typename": "CmsHtmlField"
+                                          },
+                                          "image": {
+                                              "alt": "Woman collecting medication from pharmacy",
+                                              "sizes": [
+                                                  {
+                                                      "size": "default",
+                                                      "url": "http://drupal-webapp/sites/default/files/2023-06/MedicationCollection_01_Web.png",
+                                                      "width": 1000,
+                                                      "height": 679,
+                                                      "__typename": "CmsImageVersion"
+                                                  }
+                                              ],
+                                              "__typename": "CmsImage"
+                                          },
+                                          "__typename": "CmsImageTextComponent"
+                                      }
+                                  ],
+                                  "__typename": "CmsLayoutBlock"
+                              }
+                          ],
+                          "__typename": "CmsLayoutSection"
+                      },
+                      {
+                          "type": "onecol",
+                          "settings": [
+                              {
+                                  "key": "section_full_width",
+                                  "value": "0",
+                                  "__typename": "CmsSectionLayoutSettings"
+                              },
+                              {
+                                  "key": "section_colour",
+                                  "value": "0",
+                                  "__typename": "CmsSectionLayoutSettings"
+                              }
+                          ],
+                          "blocks": [
+                              {
+                                  "name": "content",
+                                  "options": {
+                                      "width": 100,
+                                      "__typename": "CmsLayoutBlockOptions"
+                                  },
+                                  "components": [
+                                      {
+                                          "options": {
+                                              "displayLabel": false,
+                                              "__typename": "CmsComponentOptions"
+                                          },
+                                          "label": "Why choose collection?",
+                                          "image": {
+                                              "alt": "Pharmacy or collection phone screen",
+                                              "sizes": [
+                                                  {
+                                                      "size": "default",
+                                                      "url": "http://drupal-webapp/sites/default/files/2023-06/hey%20Delivery.png",
+                                                      "width": 640,
+                                                      "height": 867,
+                                                      "__typename": "CmsImageVersion"
+                                                  }
+                                              ],
+                                              "__typename": "CmsImage"
+                                          },
+                                          "items": [
+                                              {
+                                                  "title": null,
+                                                  "copy": "<p>Collecting from your local pharmacy is fast and free.</p>",
+                                                  "image": {
+                                                      "alt": "quick ordering",
+                                                      "sizes": [
+                                                          {
+                                                              "width": 281,
+                                                              "height": 380,
+                                                              "size": "default",
+                                                              "url": "http://drupal-webapp/sites/default/files/2022-05/quick-ordering_0.png",
+                                                              "__typename": "CmsImageVersion"
+                                                          }
+                                                      ],
+                                                      "__typename": "CmsImage"
+                                                  },
+                                                  "__typename": "CmsTextCard"
+                                              },
+                                              {
+                                                  "title": null,
+                                                  "copy": "<p>Receive face-to-face health advice from a professional</p>",
+                                                  "image": {
+                                                      "alt": "messaging",
+                                                      "sizes": [
+                                                          {
+                                                              "width": 280,
+                                                              "height": 377,
+                                                              "size": "default",
+                                                              "url": "http://drupal-webapp/sites/default/files/2022-05/messaging.png",
+                                                              "__typename": "CmsImageVersion"
+                                                          }
+                                                      ],
+                                                      "__typename": "CmsImage"
+                                                  },
+                                                  "__typename": "CmsTextCard"
+                                              },
+                                              {
+                                                  "title": null,
+                                                  "copy": "<p>Your health records will remain private between you, your pharmacist, and your GP</p>",
+                                                  "image": {
+                                                      "alt": "family ordering",
+                                                      "sizes": [
+                                                          {
+                                                              "width": 322,
+                                                              "height": 376,
+                                                              "size": "default",
+                                                              "url": "http://drupal-webapp/sites/default/files/2022-05/family-ordering.png",
+                                                              "__typename": "CmsImageVersion"
+                                                          }
+                                                      ],
+                                                      "__typename": "CmsImage"
+                                                  },
+                                                  "__typename": "CmsTextCard"
+                                              },
+                                              {
+                                                  "title": null,
+                                                  "copy": "<p>Collect your medication when it’s convenient for you</p>",
+                                                  "image": {
+                                                      "alt": "order summary",
+                                                      "sizes": [
+                                                          {
+                                                              "width": 280,
+                                                              "height": 378,
+                                                              "size": "default",
+                                                              "url": "http://drupal-webapp/sites/default/files/2022-05/order-summary_0.png",
+                                                              "__typename": "CmsImageVersion"
+                                                          }
+                                                      ],
+                                                      "__typename": "CmsImage"
+                                                  },
+                                                  "__typename": "CmsTextCard"
+                                              },
+                                              {
+                                                  "title": null,
+                                                  "copy": "<p>Pick up your pharmacy-only medication, or book a service</p>",
+                                                  "image": {
+                                                      "alt": "view all prescriptions",
+                                                      "sizes": [
+                                                          {
+                                                              "width": 280,
+                                                              "height": 378,
+                                                              "size": "default",
+                                                              "url": "http://drupal-webapp/sites/default/files/2022-05/view-all-prescriptions.png",
+                                                              "__typename": "CmsImageVersion"
+                                                          }
+                                                      ],
+                                                      "__typename": "CmsImage"
+                                                  },
+                                                  "__typename": "CmsTextCard"
+                                              },
+                                              {
+                                                  "title": null,
+                                                  "copy": "<p>Support your local pharmacy, so they can support you</p>",
+                                                  "image": {
+                                                      "alt": "local pharmacy",
+                                                      "sizes": [
+                                                          {
+                                                              "width": 281,
+                                                              "height": 347,
+                                                              "size": "default",
+                                                              "url": "http://drupal-webapp/sites/default/files/2022-05/local-pharmacy.png",
+                                                              "__typename": "CmsImageVersion"
+                                                          }
+                                                      ],
+                                                      "__typename": "CmsImage"
+                                                  },
+                                                  "__typename": "CmsTextCard"
+                                              }
+                                          ],
+                                          "__typename": "CmsOurServicesComponent"
+                                      }
+                                  ],
+                                  "__typename": "CmsLayoutBlock"
+                              }
+                          ],
+                          "__typename": "CmsLayoutSection"
+                      },
+                      {
+                          "type": "onecol",
+                          "settings": [
+                              {
+                                  "key": "section_full_width",
+                                  "value": "1",
+                                  "__typename": "CmsSectionLayoutSettings"
+                              },
+                              {
+                                  "key": "section_colour",
+                                  "value": "0",
+                                  "__typename": "CmsSectionLayoutSettings"
+                              }
+                          ],
+                          "blocks": [
+                              {
+                                  "name": "content",
+                                  "options": {
+                                      "width": 100,
+                                      "__typename": "CmsLayoutBlockOptions"
+                                  },
+                                  "components": [
+                                      {
+                                          "options": {
+                                              "displayLabel": true,
+                                              "__typename": "CmsComponentOptions"
+                                          },
+                                          "label": "How do I select a pharmacy for collection?",
+                                          "body": {
+                                              "html": "<p>Nominating your preferred pharmacy couldn't be simpler. If a pharmacy near you supports Hey Pharmacist, follow these steps to begin your journey.</p>",
+                                              "raw": "<p>Nominating your preferred pharmacy couldn't be simpler. If a pharmacy near you supports Hey Pharmacist, follow these steps to begin your journey.</p>\r\n",
+                                              "__typename": "CmsHtmlField"
+                                          },
+                                          "slides": [
+                                              {
+                                                  "title": "1. Visit your pharmacy",
+                                                  "copy": "<p>Visit your preferred pharmacy and pick up a leaflet containing a QR code and unique pharmacy ID.</p>\r\n",
+                                                  "image": {
+                                                      "alt": "Pharmacy",
+                                                      "sizes": [
+                                                          {
+                                                              "width": 1123,
+                                                              "height": 1123,
+                                                              "size": "default",
+                                                              "url": "http://drupal-webapp/sites/default/files/2023-03/Hey_Pharmacy_0.png",
+                                                              "__typename": "CmsImageVersion"
+                                                          }
+                                                      ],
+                                                      "__typename": "CmsImage"
+                                                  },
+                                                  "ctas": [],
+                                                  "termsAndConditions": null,
+                                                  "__typename": "CmsHero"
+                                              },
+                                              {
+                                                  "title": "2. Download and register",
+                                                  "copy": "<p>Scanning the QR code will allow you to download Hey Pharmacist. Enter the pharmacy ID and register for the service.</p>\r\n",
+                                                  "image": {
+                                                      "alt": "Place orders online",
+                                                      "sizes": [
+                                                          {
+                                                              "width": 279,
+                                                              "height": 300,
+                                                              "size": "default",
+                                                              "url": "http://drupal-webapp/sites/default/files/2022-02/place-order.png",
+                                                              "__typename": "CmsImageVersion"
+                                                          }
+                                                      ],
+                                                      "__typename": "CmsImage"
+                                                  },
+                                                  "ctas": [],
+                                                  "termsAndConditions": null,
+                                                  "__typename": "CmsHero"
+                                              },
+                                              {
+                                                  "title": "3. Select your pharmacy",
+                                                  "copy": "<p>Once you’ve registered and placed your order, select your preferred pharmacy at checkout screen.</p>\r\n",
+                                                  "image": {
+                                                      "alt": "Pharmacy",
+                                                      "sizes": [
+                                                          {
+                                                              "width": 1123,
+                                                              "height": 1123,
+                                                              "size": "default",
+                                                              "url": "http://drupal-webapp/sites/default/files/2023-03/Hey_Pharmacy_0.png",
+                                                              "__typename": "CmsImageVersion"
+                                                          }
+                                                      ],
+                                                      "__typename": "CmsImage"
+                                                  },
+                                                  "ctas": [],
+                                                  "termsAndConditions": null,
+                                                  "__typename": "CmsHero"
+                                              }
+                                          ],
+                                          "__typename": "CmsContentGridComponent"
+                                      },
+                                      {
+                                          "options": {
+                                              "displayLabel": false,
+                                              "__typename": "CmsComponentOptions"
+                                          },
+                                          "label": null,
+                                          "html": {
+                                              "raw": "<p>Your pharmacist will be more than happy to help talk you through the sign up process to ensure everything is set up for you to make your first order.</p>\r\n",
+                                              "html": "<p>Your pharmacist will be more than happy to help talk you through the sign up process to ensure everything is set up for you to make your first order.</p>",
+                                              "__typename": "CmsHtmlField"
+                                          },
+                                          "alignment": "center",
+                                          "__typename": "CmsPageIntroComponent"
+                                      },
+                                      {
+                                          "options": {
+                                              "displayLabel": false,
+                                              "__typename": "CmsComponentOptions"
+                                          },
+                                          "label": "Block 1",
+                                          "reverse": false,
+                                          "highlighted": false,
+                                          "promotedMedia": false,
+                                          "fullBleed": false,
+                                          "body": {
+                                              "html": "<p>The unique pharmacy code, provided on the leaflet, is what you can scan to directly connect your preferred pharmacy to your Hey Pharmacist app. This means that your prescription will be sent to your selected pharmacy when you come to collect your medication.</p>\n\n<p>Alternatively, you can&nbsp;manually selecting your preferred pharmacy via the Hey Pharmacist app. Upon signing up and adding your prescription, you will be required to search for pharmacies near to your postcode, simply select the one that’s best for you!</p>\n\n<p>We know that your local pharmacy isn’t just a pick up station for your medication. It’s also a place of trust. Your pharmacist is there to offer advice and guidance on any of your <a href=\"/new-medicine-services\">queries regarding your medication</a>, and collecting said medication from your pharmacy is the perfect opportunity to ask about your NHS repeat prescription.</p>",
+                                              "raw": "<p>The unique pharmacy code, provided on the leaflet, is what you can scan to directly connect your preferred pharmacy to your Hey Pharmacist app. This means that your prescription will be sent to your selected pharmacy when you come to collect your medication.</p>\r\n\r\n<p>Alternatively, you can&nbsp;manually selecting your preferred pharmacy via the Hey Pharmacist app. Upon signing up and adding your prescription, you will be required to search for pharmacies near to your postcode, simply select the one that’s best for you!</p>\r\n\r\n<p>We know that your local pharmacy isn’t just a pick up station for your medication. It’s also a place of trust. Your pharmacist is there to offer advice and guidance on any of your <a href=\"/new-medicine-services\">queries regarding your medication</a>, and collecting said medication from your pharmacy is the perfect opportunity to ask about your NHS repeat prescription.</p>\r\n",
+                                              "__typename": "CmsHtmlField"
+                                          },
+                                          "image": {
+                                              "alt": "Pharmacist helping customer with Hey Pharmacist",
+                                              "sizes": [
+                                                  {
+                                                      "size": "default",
+                                                      "url": "http://drupal-webapp/sites/default/files/2023-06/InStoreSignUp_02_Web.png",
+                                                      "width": 1000,
+                                                      "height": 679,
+                                                      "__typename": "CmsImageVersion"
+                                                  }
+                                              ],
+                                              "__typename": "CmsImage"
+                                          },
+                                          "__typename": "CmsImageTextComponent"
+                                      },
+                                      {
+                                          "options": {
+                                              "displayLabel": false,
+                                              "__typename": "CmsComponentOptions"
+                                          },
+                                          "label": "Block 1",
+                                          "html": {
+                                              "raw": "<p><strong>As always, our Patient Experience Team are ready to help you with any queries. You can contact them by tapping the 'help' button in the app, the messenger icon on the web or by emailing help@heypharmacist.co.uk.</strong></p>\r\n",
+                                              "html": "<p><strong>As always, our Patient Experience Team are ready to help you with any queries. You can contact them by tapping the 'help' button in the app, the messenger icon on the web or by emailing help@heypharmacist.co.uk.</strong></p>",
+                                              "__typename": "CmsHtmlField"
+                                          },
+                                          "__typename": "CmsHtmlComponent"
+                                      }
+                                  ],
+                                  "__typename": "CmsLayoutBlock"
+                              }
+                          ],
+                          "__typename": "CmsLayoutSection"
+                      }
+                  ],
+                  "eventDetails": null,
+                  "__typename": "CmsPageContent"
+              },
+              "__typename": "CmsPage"
+          },
+          "__typename": "Route"
+      }
+  }
+}

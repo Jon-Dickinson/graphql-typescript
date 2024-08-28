@@ -1,86 +1,25 @@
-import { useMutation, useQuery } from "@apollo/client";
-import { graphql } from "lib/gql";
-import Link from "next/link";
-import { useState } from "react";
+import { useQuery } from "@apollo/client";
 import { initializeApollo } from "../lib/apollo";
-
-const updateNameDocument = graphql(/* GraphQL */ `
-  mutation UpdateName($name: String!) {
-    updateName(name: $name) {
-      id
-      name
-      status
-    }
-  }
-`);
-
-const viewerDocument = graphql(/* GraphQL */ `
-  query Viewer {
-    viewer {
-      id
-      name
-      status
-    }
-  }
-`);
+import PageComponent from "./PageComponent";
+import { GET_ROUTE_BY_PATH } from "../lib/query";
 
 const Index = () => {
-  const { data } = useQuery(viewerDocument);
-  const [newName, setNewName] = useState("");
-  const [updateNameMutation] = useMutation(updateNameDocument);
+  const { data, loading, error } = useQuery(GET_ROUTE_BY_PATH, {
+    variables: { path: "/repeat-prescriptions/collection" },
+  });
 
-  const onChangeName = () => {
-    updateNameMutation({
-      variables: {
-        name: newName,
-      },
-      // Follow apollo suggestion to update cache
-      //  https://www.apollographql.com/docs/angular/features/cache-updates/#update
-      update: (cache, mutationResult) => {
-        const { data } = mutationResult;
-        if (!data) return; // Cancel updating name in cache if no data is returned from mutation.
-        // Read the data from our cache for this query.
-        const result = cache.readQuery({
-          query: viewerDocument,
-        });
+  if (loading) return <p>Loading page...</p>;
+  if (error) return <p>Error loading page: {error.message}</p>;
 
-        const newViewer = result ? { ...result.viewer } : null;
-        // Add our comment from the mutation to the end.
-        // Write our data back to the cache.
-        if (newViewer) {
-          newViewer.name = data.updateName.name;
-          cache.writeQuery({
-            query: viewerDocument,
-            data: { viewer: newViewer },
-          });
-        }
-      },
-    });
-  };
-
-  const viewer = data.viewer;
-
-  return viewer ? (
-    <div>
-      You're signed in as {viewer.name} and you're {viewer.status}. Go to the{" "}
-      <Link href="/about">about</Link> page.
-      <div>
-        <input
-          type="text"
-          placeholder="your new name..."
-          onChange={(e) => setNewName(e.target.value)}
-        />
-        <input type="button" value="change" onClick={onChangeName} />
-      </div>
-    </div>
-  ) : null;
+  return <PageComponent path="/repeat-prescriptions/collection" />;
 };
 
 export async function getStaticProps() {
   const apolloClient = initializeApollo();
 
   await apolloClient.query({
-    query: viewerDocument,
+    query: GET_ROUTE_BY_PATH,
+    variables: { path: "/repeat-prescriptions/collection" },
   });
 
   return {

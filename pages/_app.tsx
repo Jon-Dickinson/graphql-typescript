@@ -1,6 +1,7 @@
 import { AppProps as NextAppProps } from 'next/app';
-import { ApolloClient, ApolloProvider, NormalizedCacheObject } from '@apollo/client';
+import { ApolloProvider, NormalizedCacheObject } from '@apollo/client';
 import { useApollo } from '../lib/apollo';
+import './global.css';
 
 interface AppProps extends NextAppProps {
   pageProps: {
